@@ -85,6 +85,7 @@ module SalesforceExporter
         "reference" => [:foreign_key, "VARCHAR"],
         "string" => [:column, "VARCHAR"],
         "picklist" => [:column, "VARCHAR"],
+        "multipicklist" => [:column, "VARCHAR"],
         "phone" => [:column, "VARCHAR"],
         "boolean" => [:column, "BOOLEAN"],
         "textarea" => [:column, "TEXT"],
